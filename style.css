@@ -74,7 +74,15 @@
     font-size: 25px;
     color: white;
     font-weight: bolder;
-    padding-left: 25px;
+   margin-left: -28px;
+}
+.nav li:hover{
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(60deg, #f12711 30%, #f5af19 70%);
+    padding-left: 15px;
+    border-radius: 5%;
+    border: 2px solid blue ;
 }
 a{
     text-decoration: none;
@@ -82,7 +90,8 @@ a{
    line-height: 45px;
 }
 a:hover{
-    color: darkblue;
+    color: black;
+   
 }
 body::-webkit-scrollbar {
     width: 1em;
