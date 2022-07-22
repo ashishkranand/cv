@@ -115,3 +115,23 @@ body::-webkit-scrollbar {
     background-color: rgb(88, 11, 231);
     outline: 1px solid rgb(148, 215, 5);
 }
+
+.percontainer{
+    display: flex;
+
+}
+.perleft{
+    height: 73vh;
+    width: 50em;
+    
+}
+.perright{
+    height: 73vh;
+    width: 50em;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+.perright img{
+    border-radius: 30%;
+    border: 5px solid red;
+}

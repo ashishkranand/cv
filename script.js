@@ -4,6 +4,7 @@ function myFunction() {
 }
 function personal() {
    var element = document.getElementById("personal").style.display="block";
+   
    var element = document.getElementById("contact").style.display="none";
    var element = document.getElementById("projects").style.display="none";
    var element = document.getElementById("certificate").style.display="none";
@@ -381,6 +382,14 @@ function education() {
       var element = document.getElementById("liste").style.borderRadius="";
       var element = document.getElementById("liste").style.border="";
       var element = document.getElementById("liste").style.color="";
+
+      var element = document.getElementById("listp").style.width="";
+     var element = document.getElementById("listp").style.height="";
+      var element = document.getElementById("listp").style.background="";
+      var element = document.getElementById("listp").style.paddingLeft="";
+      var element = document.getElementById("listp").style.borderRadius="";
+      var element = document.getElementById("listp").style.border="";
+      var element = document.getElementById("listp").style.color="";
 
       var element = document.getElementById("listh").style.width="";
       var element = document.getElementById("listh").style.height="";
