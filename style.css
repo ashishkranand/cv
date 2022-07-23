@@ -58,15 +58,15 @@
 .lcontent{
     height: 100vh;
     width: 15em;
-    border: 2px solid black;
-    background-color: bisque;
+    border: 2px solid greenyellow;
+    background-color: rgb(2, 19, 44);
 }
 .rcontent{
     height: 100vh;
     width: 65em;
     border: 2px solid black;
     overflow: scroll;
-    background-color: bisque;
+    background-color: rgb(2, 19, 44);
 }
 .nav{
     list-style: none;
@@ -86,7 +86,7 @@
 }
 a{
     text-decoration: none;
-    color: darkred;
+    color: white;
    line-height: 45px;
 }
 a:hover{
@@ -142,6 +142,7 @@ body::-webkit-scrollbar {
     width: 45vw;
     height: 40vh;
     margin-left: 4%;
+    color: wheat;
 }
 .proRight{
     width: 49vw;
@@ -166,4 +167,23 @@ body::-webkit-scrollbar {
   border: 5px double red;
   border-radius: 5px;
 }
-
+.skillss{
+    margin-left: 4%;
+}
+.skillsImage{
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+}
+.starImage{
+    margin-left: 30%;
+}
+.contactImage{
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+}
+.contactText{
+    display: inline-block;
+    width: 30em;
+}
