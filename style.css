@@ -135,4 +135,35 @@ body::-webkit-scrollbar {
     border-radius: 30%;
     border: 5px solid red;
 }
+.project{
+   
+}
+.proLeft{
+    width: 45vw;
+    height: 40vh;
+    margin-left: 4%;
+}
+.proRight{
+    width: 49vw;
+}
+.apna{
+    position: relative;
+    left: 95%;
+    bottom: 130px;
+    height: 70%;
+    width: 50%;
+    cursor: pointer;
+    border: 5px double red;
+    border-radius: 5px;
+}
+.sachida{
+    position: relative;
+    left: 95%;
+    bottom: 80px;
+    height: 70%;
+    width: 50%;
+  cursor: pointer;
+  border: 5px double red;
+  border-radius: 5px;
+}
 
