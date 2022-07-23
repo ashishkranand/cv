@@ -122,14 +122,14 @@ body::-webkit-scrollbar {
 }
 .perleft{
     height: 73vh;
-    width: 50em;
+    width: 60vw;
     
 }
 .perright{
     height: 73vh;
-    width: 50em;
-    margin-left: 20%;
-    margin-top: 4%;
+    width: 40vw;
+    margin-left: 10%;
+    margin-top: -10%;
 }
 .perright img{
     border-radius: 30%;
