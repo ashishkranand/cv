@@ -64,6 +64,7 @@
     height: 100vh;
     width: 100em;
     overflow: scroll;
+    color: white;
     background-color: rgb(2, 19, 44);
 }
 .nav{
@@ -134,17 +135,12 @@ body::-webkit-scrollbar {
     border: 5px solid red;
 }
 .project{
-   
+    width: 90vw;
 }
-.proLeft{
-    width: 45vw;
-    height: 40vh;
-    margin-left: 4%;
+.proname{
     color: wheat;
 }
-.proRight{
-    width: 49vw;
-}
+
 .apna{
     position: relative;
     left: 95%;
