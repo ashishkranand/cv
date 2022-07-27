@@ -13,4 +13,14 @@
             .photo{
              display: none;
             }
+            .certimage{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
             }
+            .certimg{
+                width: 100%;
+                height: 100%;
+                
+            }
+        }

@@ -25,19 +25,25 @@
         </div>
        
     </div>
+    
     <div class="main animate__animated animate__zoomIn" id="mainn">
+        
         <div class="lcontent">
+            <span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
            <ul class="nav">
            <a href="#personal" onclick="personal()"><li id="list">Personal details</li></a> 
            <a href="#projects" onclick="projects()"><li id="listp">Projects</li></a> 
            <a href="#skills" onclick="skills()"><li id="lists">Technical Skills</li></a> 
            <a href="#certificate" onclick="certificate()"><li id="listce">Certifiactions</li></a>
-           <a href="#education" onclick="education()"><li id="liste">Eduaction</li></a>
+           <a href="#education" onclick="education()"><li id="liste">Education</li></a>
            <a href="#hobbies" onclick="hobbies()"><li id="listh">Hobbies</li></a>
            <a href="#contact" onclick="contact()"><li id="listc">Contact details</li></a> 
             
            </ul>
         </div>
+    </div>
         <div class="rcontent">
             <div class="personall" id="personal" style="display: none;">
        <h1 style="color: white; font-size: 45px;padding: 15px;" class="animate__animated animate__backInLeft">Ashish kumar anand</h1> 
@@ -162,7 +168,27 @@ Language known : English , Hindi
                 </div>
             </div>
             <div class="certificatee" id="certificate"style="display: none;">
-                <h1>Certificate details</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos commodi consequuntur molestiae adipisci soluta! Sit, odit explicabo iusto accusamus voluptates, qui sint aliquam eaque velit molestias perspiciatis. Deleniti veniam vero quis esse?
+                <h1 style="color:white; font-size: 45px;text-decoration: underline;">Certificates</h1> 
+                <ul class="certul">
+                    <li>Responsive Web design</li>
+                    <h5 class="ulh3cert">This Certificate is realted to web development where i learn how to make Responsive web design with the help of HTML and Css. I got this certificate from FreeCodeCamp.</h5>
+                    <li>Git and Github</li>
+                    <h5 class="ulh3cert">This Certificate is realted to Github where we can take help , upload our codes and many more.</h5>
+                    <li>Python for Machine learning</li>
+                    <h5 class="ulh3cert">Learnt from Great learning. Understand how to evaluate models generated from data . Apply the algorithms to a
+                        real problem, optimize the models learned and report on the expected accuracy that can be achieved by applying
+                        the models.</h5>
+                    <li>Front end development with BootStrap</li>
+                    <h5 class="ulh3cert">Learnt from Coursera. Bootstrap is an intuitive and powerful front-end framework for developing responsive,
+                        mobile first projects on the web. Its collection of HTML, CSS, and JS components facilitates faster and easier
+                        development of websites and web applications .</h5>
+                </ul>
+                <div class="certimage">
+                    <img src="./Images/responsive web design certificate.jpg" alt="Responsive Web design" class="certimg">
+                    <img src="./Images/bootstrap.jpg" alt="Git and Github" class="certimg">
+                    <img src="./Images/python.jpg" alt="Machine learning with Python" class="certimg">
+                    <img src="./Images/bootstrap.jpg" alt="Front end development with BootStrap" class="certimg">
+                </div>
             </div>
             
             <div class="educationn" id="education"style="display: none;">
@@ -173,5 +199,14 @@ Language known : English , Hindi
             </div>
         </div>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 </body>
 </html>
