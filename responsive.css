@@ -2,6 +2,7 @@
     .photo{
         margin-left: 30%;
     }
+    
     }
     @media only screen and (max-width:1050px){
         .photo{
@@ -24,4 +25,42 @@
                 
             }
             
+        }
+        @media only screen and (max-width:900px){
+            .sidenav{
+                width: 0;
+            }
+            .sidenav .closebtn {
+            display: block;
+            }
+            .rcontent{
+                width: 100em;
+                margin-left: 0;
+            }
+            .openbtn{
+                display: block;
+            }
+        }
+
+        @media only screen and (max-width:700px){
+            .persres{
+               font-size: 14px;
+            }
+            .contactText{
+                font-size: 16px;
+            }
+            .contactImage{
+                height: 2em;
+                width: 2em;
+            }
+            .projectname{
+                font-size: 20px;
+            }
+            .projectdesc{
+                font-size: 15px;
+            }
+            .skillsImage{
+                height: 2em;
+                width: 2em;
+            }
         }
