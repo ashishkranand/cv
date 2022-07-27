@@ -230,6 +230,8 @@ body::-webkit-scrollbar {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    align-items: center;
+    text-align: center;
   }
   
   .sidenav a {

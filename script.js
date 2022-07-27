@@ -1,5 +1,5 @@
 function openNav() {
-   document.getElementById("mySidenav").style.width = "250px";
+   document.getElementById("mySidenav").style.width = "100vw";
  }
  
  function closeNav() {
@@ -14,7 +14,6 @@ function myFunction() {
 }
 function personal() {
    var element = document.getElementById("personal").style.display="block";
-   
    
    var element = document.getElementById("contact").style.display="none";
    var element = document.getElementById("projects").style.display="none";
