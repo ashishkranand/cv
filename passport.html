@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport</title>
+    <style>
+        h3{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form style="background-color: rgb(72, 237, 191); display: inline-block; padding: 15px;  border-radius: 10px;border: 4px solid black;">
+        <h2 style="color: blue;text-align: center; border-bottom: 3px solid black;">Registration form for passport</h2>
+        <h3 style="color: red;"><u> Name:</u></h3>
+        <input type="text" name="name" id="name" placeholder="Enter your name" style="width: 18x0px;height: 25px; border-radius: 5xpx; padding: 5px; font-size: 18px; margin-left: 18%;"><br>
+        <h3 style="color: red;"><u> Father's name:</u></h3>
+        <input type="text" name="fname" id="fname" placeholder="Enter your father's name" style="width: 18x0px;height: 25px; border-radius: 5xpx; padding: 5px; font-size: 18px;margin-left: 4%;"><br>
+        <h3 style="color: red;"><u> aadhaar number</u></h3>
+        <input type="text" name="aadhaar" id="aadhaar" placeholder="Enter your aadhaar number" style="width: 18x0px;height: 25px; border-radius: 5xpx; padding: 5px; font-size: 18px;margin-left: 1%;"><br>
+        <h3 style="color: red;"><u> Mobile:</u></h3>
+        <input type="text" name="Mobile" id="Mobile" placeholder="Enter your Mobile number" style="width: 18x0px;height: 25px; border-radius: 5xpx; padding: 5px; font-size: 18px;margin-left: 16%;"><br>
+        <h3 style="color: red;"><u> Email:</u></h3>
+        <input type="text" name="Email" id="Email" placeholder="Enter your Email id" style="width: 18x0px;height: 25px; border-radius: 5xpx; padding: 5px; font-size: 18px;margin-left: 18%;"><br>
+        <h3 style="color: red;"><u> Gender:</u></h3>
+        <label for="radio" style="margin-left: 15%;">Male</label>
+        <input type="radio" name="first radio button"autofocus>
+        <label for="radio">Female</label>
+        <input type="radio" checked  name="second radio button">
+        <label for="radio" >other</label>
+        <input type="radio" checked  name="second radio button"><br>
+        <h3 style="color: red;"><u> Country:</u></h3>
+        <label for="radio"style="margin-left: 13%;">India</label>
+        <input type="radio" name="first radio button"autofocus>
+        <label for="radio">International</label>
+        <input type="radio" checked  name="second radio button"><br>
+        <h3 style="color: red;"><u> Upload your aadhaar card :</u></h3>
+        <input type="file" name="file" id="file" ><br>
+        <h3 style="color: red;"><u>Tell reason why are you applying:</u></h3><br>
+        <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+        <button id="submit" type="submit"  style=" background-color: rgb(231, 45, 45); color: whitesmoke; padding: 10px; font-size: larger; border-radius: 10px; cursor: pointer;">Submit</button>
+    </form>
+</body>
+</html>

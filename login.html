@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .mainnn{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+   <div class="mainnn">
+    <form action="login.php" method="post">
+                            
+        <input type="text" name="username" id="" class="textbox" placeholder="Enter Username">
+        <input type="password" name="password" id="" class="textbox" placeholder="Enter Password">
+        <input type="checkbox" value="lsRememberMe" id="rememberMe"> 
+        <label for="rememberMe">Remember me</label>
+        <input type="submit" value="Login" name="login" onclick="showportfolio()">
+    </form>
+   </div>
+   <script>
+    var user=document.getElementsByClassName('textbox');
+    var pass=document.getElementsByClassName('password');
+    function showportfolio(){
+        document.write(user);
+    }
+   </script>
+</body>
+</html>
